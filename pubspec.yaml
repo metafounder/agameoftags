@@ -1,0 +1,28 @@
+name: agameoftags
+description: A Game of Tags Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.13.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+dev_dependencies:
+  equatable: ^2.0.3
+  dartz: ^0.10.1
+  get_it: ^7.2.0
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/mock_tags.json
